@@ -9,7 +9,8 @@ console.log(dropdownItemEl);
 // 2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
 
 const btnEl = document.querySelector(".btn");
-btnEl.classList.remove("btn-secondary");
+// btnEl.classList.remove("btn-secondary");
+btnEl.classList.toggle("btn-secondary");
 console.log(btnEl);
 
 // 3. Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
